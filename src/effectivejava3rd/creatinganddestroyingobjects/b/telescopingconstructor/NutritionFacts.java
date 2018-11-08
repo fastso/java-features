@@ -1,6 +1,5 @@
 package effectivejava3rd.creatinganddestroyingobjects.b.telescopingconstructor;
 
-//Telescoping constructor pattern - does not scale well! (Pages 10-11)
 public class NutritionFacts {
 	private final int servingSize; // (mL) required
 	private final int servings; // (per container) required
