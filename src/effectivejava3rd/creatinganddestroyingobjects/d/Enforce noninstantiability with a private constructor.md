@@ -1,0 +1,1 @@
+* A class can be made non instantiable by including a private constructor.
