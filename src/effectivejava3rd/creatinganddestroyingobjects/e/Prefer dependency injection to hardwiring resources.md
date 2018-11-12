@@ -1,0 +1,1 @@
+* Static utility classes and singletons are inappropriate for classes whose behavior is parameterized by an underlying resource.
