@@ -1,0 +1,2 @@
+* While String.matches is the easiest way to check if a string matches a regular expression, it’s not suitable for repeated use in performance-critical situations.
+* prefer primitives to boxed primitives, and watch out for unintentional autoboxing.
