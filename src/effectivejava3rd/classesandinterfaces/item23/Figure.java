@@ -1,6 +1,6 @@
 package effectivejava3rd.classesandinterfaces.item23;
 
-//Tagged class - vastly inferior to a class hierarchy!
+//Tagged class - vastly inferior to a class hierarchy! Do not use!
 class Figure {
 	enum Shape {
 		RECTANGLE, CIRCLE
