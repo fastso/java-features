@@ -1,0 +1,13 @@
+package effectivejava3rd.methods.item52;
+
+import java.util.List;
+
+//Classification using method overrriding
+public class Overriding {
+	public static void main(String[] args) {
+		List<Wine> wineList = List.of(new Wine(), new SparklingWine(), new Champagne());
+
+		for (Wine wine : wineList)
+			System.out.println(wine.name());
+	}
+}
