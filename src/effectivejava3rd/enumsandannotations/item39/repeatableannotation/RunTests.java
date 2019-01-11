@@ -25,7 +25,7 @@ public class RunTests {
 				}
 			}
 
-			// Processing repeatable annotations (Page 187)
+			// Processing repeatable annotations
 			if (m.isAnnotationPresent(ExceptionTest.class) || m.isAnnotationPresent(ExceptionTestContainer.class)) {
 				tests++;
 				try {
