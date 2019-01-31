@@ -1,5 +1,8 @@
 package effectivejava3rd.serialization.item85;
 
+import static effectivejava3rd.serialization.Util.deserialize;
+import static effectivejava3rd.serialization.Util.serialize;
+
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
